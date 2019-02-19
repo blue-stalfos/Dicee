@@ -23,6 +23,10 @@ class ViewController: UIViewController {
 		updateDiceImages()
 	}
 	
+	override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+		updateDiceImages()
+	}
+	
 	@IBAction func rollButtonPressed(_ sender: UIButton) {
 		updateDiceImages()
 	}
