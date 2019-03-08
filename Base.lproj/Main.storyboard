@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,27 +15,27 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dicee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newbackground" translatesAutoresizingMaskIntoConstraints="NO" id="O5M-HJ-Ylp">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GMO-me-q0g" userLabel="Middle Container">
-                                <rect key="frame" x="67.5" y="283.5" width="240" height="100"/>
+                                <rect key="frame" x="67.666666666666686" y="356" width="240" height="100"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="XbQ-iJ-Fiy">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="MmK-tn-C47"/>
-                                            <constraint firstAttribute="height" constant="100" id="dfx-IB-tnd"/>
-                                        </constraints>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="Xl3-Qx-HUQ">
                                         <rect key="frame" x="140" y="0.0" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="gsB-zw-Zgp"/>
                                             <constraint firstAttribute="height" constant="100" id="tim-3X-aaC"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="XbQ-iJ-Fiy">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="MmK-tn-C47"/>
+                                            <constraint firstAttribute="height" constant="100" id="dfx-IB-tnd"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -49,10 +49,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Faf-Bv-YDh" userLabel="Top Container">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="283.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="356"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Joz-xe-n16">
-                                        <rect key="frame" x="67.5" y="78" width="240" height="128"/>
+                                        <rect key="frame" x="67.666666666666686" y="114" width="240" height="128"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="4rC-5Q-feZ"/>
                                             <constraint firstAttribute="width" constant="240" id="Koa-N2-P3r"/>
@@ -65,10 +65,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mbD-kD-l2y" userLabel="Bottom Container">
-                                <rect key="frame" x="0.0" y="383.5" width="375" height="283.5"/>
+                                <rect key="frame" x="0.0" y="456" width="375" height="322"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfb-cy-jjJ">
-                                        <rect key="frame" x="122.5" y="118.5" width="130" height="47"/>
+                                        <rect key="frame" x="122.66666666666669" y="137.66666666666663" width="130" height="47"/>
                                         <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="130" id="uhD-Nm-Wdt"/>
@@ -104,7 +104,7 @@
                             <constraint firstItem="Faf-Bv-YDh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hXx-mO-Ghc"/>
                             <constraint firstItem="GMO-me-q0g" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mSM-oB-Un3"/>
                             <constraint firstAttribute="trailing" secondItem="mbD-kD-l2y" secondAttribute="trailing" id="zVE-Qo-wXr"/>
-                            <constraint firstItem="O5M-HJ-Ylp" firstAttribute="bottom" secondItem="xhj-3h-aBd" secondAttribute="bottom" id="zjd-Z6-WqN"/>
+                            <constraint firstItem="O5M-HJ-Ylp" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="zjd-Z6-WqN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xhj-3h-aBd"/>
                     </view>
@@ -121,6 +121,6 @@
     <resources>
         <image name="dice1" width="100" height="100"/>
         <image name="diceeLogo" width="196" height="128"/>
-        <image name="newbackground" width="444.5" height="414"/>
+        <image name="newbackground" width="444.66665649414062" height="414.33334350585938"/>
     </resources>
 </document>
